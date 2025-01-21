@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737457017604,
+  "lastUpdate": 1737472368273,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "statement-distribution-regression-bench": [
@@ -29739,6 +29739,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "test-environment",
             "value": 0.04489465046399995,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "claravanstaden64@gmail.com",
+            "name": "Clara van Staden",
+            "username": "claravanstaden"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c0c0632c2efca435e973a1f6788e24235fe0e2a6",
+          "message": "Snowbridge - Copy Rococo integration tests to Westend (#7108)\n\nCopies all the integration tests from Rococo to Westend.\n\nCloses: https://github.com/paritytech/polkadot-sdk/issues/6389",
+          "timestamp": "2025-01-21T14:11:50Z",
+          "tree_id": "245cc885df6e82b498175778a667548dce9f9a09",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/c0c0632c2efca435e973a1f6788e24235fe0e2a6"
+        },
+        "date": 1737472351261,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Sent to peers",
+            "value": 127.93599999999991,
+            "unit": "KiB"
+          },
+          {
+            "name": "Received from peers",
+            "value": 106.39999999999996,
+            "unit": "KiB"
+          },
+          {
+            "name": "statement-distribution",
+            "value": 0.03548023868199998,
+            "unit": "seconds"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.044821586729999974,
             "unit": "seconds"
           }
         ]
